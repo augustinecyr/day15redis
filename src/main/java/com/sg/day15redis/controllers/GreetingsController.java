@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class GreetingsController {
 
     @Autowired
+    
     private RedisTemplate<String, Object> redisTemplate;
 
     @GetMapping
